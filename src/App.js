@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
-import Componente1 from './Componente1';
+// import Componente1 from './Componente1';
+import Product from './Product.js'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Ciao sono un app
+         La nostra prima card
         </p>
         {/* <a
           className="App-link"
@@ -18,7 +19,9 @@ function App() {
         >
           Learn React
         </a> */}
-        <Componente1/>
+        {/* <Componente1/> */}
+        <section className='card-section'></section>
+        <Product></Product>
       </header>
       
     </div>
