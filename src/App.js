@@ -22,6 +22,10 @@ function App() {
         {/* <Componente1/> */}
         <section className='card-section'></section>
         <Product></Product>
+        <Product></Product>
+        <Product></Product>
+        <Product></Product> 
+        <Product></Product>
       </header>
       
     </div>
