@@ -23,17 +23,13 @@ const secondaCard = {
         <p>
          La nostra prima card
         </p>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        {/* <Componente1/> */}
+    
         <section className='card-section'></section>
-        <Product nome={primaCard.nome} prezzo={primaCard.prezzo} img={primaCard.img}></Product>
+        <Product {...primaCard}>
+          <p>
+            Test App
+          </p>
+        </Product>
         <Product nome={secondaCard.nome} prezzo={secondaCard.prezzo} img={secondaCard.img}></Product>
         
       </header>
